@@ -14,7 +14,7 @@ namelistFileName = "namelist.csv"
 compiledFolderName = "Filtered"
 
 # Define gender to scrape (female or male, leave blank to scrape both)
-gender = "female"
+gender = "male"
 
 # Define disciplines to scrape
 disciplines_list = [
@@ -23,74 +23,74 @@ disciplines_list = [
 ]
 '''
 disciplines_list = [
-    "100 Metres",
-    "200 Metres",
-    "400 Metres",
-    "800 Metres",
-    "100 Metres Hurdles",
-    "110 Metres Hurdles",
-    "400 Metres Hurdles",
-    "Pole Vault",
-    "High Jump"
-]
-'''
+#     "100 Metres",
+#     "200 Metres",
+#     "400 Metres",
+#     "800 Metres",
+#     "100 Metres Hurdles",
+#     "110 Metres Hurdles",
+#     "400 Metres Hurdles",
+#     "Pole Vault",
+#     "High Jump"
+# ]
+# '''
 
-# Define Countries to get results from
+# # Define Countries to get results from
 countries_list = [
-    "Afghanistan",
-    "Bangladesh",
-    "Bhutan",
-    "Bahrain",
-    "Brunei",
-    "Cambodia",
-    "Dpr Of Korea",
-    "Timor Leste",
-    "Hong Kong, China",
-    "Indonesia",
-    "India",
-    "Islamic Republic of Iran",
-    "Iraq",
-    "Jordan",
-    "Japan",
-    "Kazakhstan",
-    "Kirghizistan",
-    "Pr Of China",
-    "Korea",
-    "Saudi Arabia",
-    "Kuwait",
-    "Laos",
-    "Lebanon",
-    "Macao",
-    "Malaysia",
-    "Maldives",
-    "Mongolia",
-    "Myanmar",
-    "Nepal",
-    "Oman",
-    "Pakistan",
-    "Philippines",
-    "Palestine",
-    "Qatar",
-    "Singapore",
-    "Sri Lanka",
-    "Syria",
-    "Thailand",
-    "Tajikistan",
-    "Turkmenistan",
-    "Chinese Taipei",
-    "United Arab Emirates",
-    "Uzbekistan",
-    "Vietnam",
-    "Republic Of Yemen"
+#     "Afghanistan",
+#     "Bangladesh",
+#     "Bhutan",
+#     "Bahrain",
+#     "Brunei",
+#     "Cambodia",
+#     "Dpr Of Korea",
+#     "Timor Leste",
+#     "Hong Kong, China",
+#     "Indonesia",
+#     "India",
+#     "Islamic Republic of Iran",
+#     "Iraq",
+#     "Jordan",
+#     "Japan",
+#     "Kazakhstan",
+#     "Kirghizistan",
+#     "Pr Of China",
+#     "Korea",
+#     "Saudi Arabia",
+#     "Kuwait",
+#     "Laos",
+#     "Lebanon",
+#     "Macao",
+#     "Malaysia",
+#     "Maldives",
+#     "Mongolia",
+#     "Myanmar",
+#     "Nepal",
+#     "Oman",
+#     "Pakistan",
+#     "Philippines",
+#     "Palestine",
+    "Qatar"
+    # "Singapore",
+    # "Sri Lanka",
+    # "Syria",
+    # "Thailand",
+    # "Tajikistan",
+    # "Turkmenistan",
+    # "Chinese Taipei",
+    # "United Arab Emirates",
+    # "Uzbekistan",
+    # "Vietnam",
+    # "Republic Of Yemen"
 ]
 
 
 # Define which years to get results for
 years_list = [
-    2019,
-    2020,
-    2021,
-    2022,
+    # 2019,
+    # 2020,
+    # 2021,
+    # 2022,
     2023,
 ]
 

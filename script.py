@@ -50,7 +50,7 @@ class API:
         else:
             print("Failed calling API!")
             print(res.text)
-            exit()
+            sys.exit()
 
 
 def searchCompetitor(query=None, gender=None, disciplineCode=None, environment=None, countryCode=None):
@@ -237,7 +237,7 @@ def cleanResults(targetFileName=config.scrappedRawFileName, sheet_name="ALL_COUN
         print("Results cleaned successfully and saved as", outputFileName)
     except Exception as e:
         print(e)
-        exit()
+        sys.exit()
     return
 
 
@@ -348,7 +348,7 @@ def filterCleanedResultsByNamelist(df, namelistCSV=config.namelistFileName):
         return df_filtered
     except Exception as e:
         print(e)
-        exit()
+        sys.exit()
 
 
 def generateFinalFilteredXlsx(df):
@@ -418,7 +418,7 @@ def searchOperation(**kwargs):
             cleanResults(targetFileName="searchResults.csv", sheet_name="searchResults", outputFileName="searchResultsCleaned.csv")
         except Exception as e:
             print(e)
-            exit()
+            sys.exit()
     return
 
 
