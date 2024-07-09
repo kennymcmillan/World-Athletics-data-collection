@@ -20,6 +20,7 @@ gender = "male"
 disciplines_list = [
     "100 Metres",
     "200 Metres",
+    "800 Metres"
 ]
 '''
 disciplines_list = [
@@ -92,6 +93,7 @@ years_list = [
     # 2021,
     # 2022,
     2023,
+    2024
 ]
 
 

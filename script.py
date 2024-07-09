@@ -99,7 +99,7 @@ def getCompetitorResultsByDiscipline(AthleteID=None, resultsByYearOrderBy=None, 
     return df
 
 
-def getCountryAthletesResults(countryCode="SGP", resultsYear=None, disciplineCode=None, gender=None):
+def getCountryAthletesResults(countryCode="QAT", resultsYear=None, disciplineCode=None, gender=None):
     if countryCode == "NOT FOUND" or len(countryCode) != 3:
         return pd.DataFrame(["countryCode " + countryCode], )
     if resultsYear == None:
