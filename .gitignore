@@ -1,8 +1,4 @@
-*.xlsx
-*.csv
-*.json
-
-.vscode/*
-__pycache__
-
+.env
 worldathleticsenv
+Old_code
+Schema_code

@@ -1,4 +1,0 @@
-
-import worldathletics
-
-help(worldathletics)

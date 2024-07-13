@@ -1,7 +1,4 @@
+asyncio
+nest_asyncio
 pandas
-openpyxl
-requests
-datetime
-argparse
-shutil
-numpy
+worldathletics
